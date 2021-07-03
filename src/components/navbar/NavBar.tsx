@@ -4,9 +4,7 @@ import Routes from './Routes';
 
 const NavBar: React.FC = () => {
     return (
-    <BrowserRouter>
-        <Routes />
-    </BrowserRouter>
+        <div></div>
     );
 }
 
