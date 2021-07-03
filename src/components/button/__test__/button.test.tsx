@@ -5,5 +5,5 @@ import Button from '../button';
 it("renders without errors", () => {
     const div = document.createElement("div");
 
-    ReactDOM.render(<Button></Button>, div);
+    ReactDOM.render(<Button label="hello"></Button>, div);
 })
