@@ -5,7 +5,7 @@ interface ButtonProps{
 }
 
 const Button: React.FC<ButtonProps> = (props:ButtonProps) => {
-    return <div className="button-style">{props.label}</div>
+    return <div data-testid="button" className="button-style">{props.label}</div>
 }
 
 
